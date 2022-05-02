@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html,body{
+    height: 100%;
+    background-color: #F6F6F9;
+}
+
+section.main-feed{
+    display: flex;
+    height: 100%;
+}
+
+.sidebar{
+    width: 347px;
+    height: 100%;
+    padding: 60px 80px;
+    background: #DEDEE5;
+}
+
+.sidebar .logo-sidebar img{
+    max-width: 200px;
+}
+
+.feed{
+    display: flex;
+    padding: 25px;
+    padding-top: 60px;
+    width: calc(100% - 347px);
+    overflow-y: auto;
+}
+
+.menu-sidebar{
+    text-align: left;
+    display: inline-block;
+}
+
+.menu-sidebar h4{
+    color: #454545;
+    margin-top: 58px;
+    margin-bottom: 24px;
+}
+
+.menu-sidebar a{
+    display: block;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: #454545;
+}
+
+.menu-sidebar a:hover{
+    font-weight: bold;
+    color: #454545;
+}
+
+.menu-sidebar img{
+    max-width: 32px;
+    padding-right: 15px;
+}
+
+.editar-perfil{
+    background-color: white;
+    padding: 20px;
+    width: 100%;
+    border: 1px solid #EBEBEB;
+	border-radius: 5px;
+}
+
+.editar-perfil input[type=text],
+.editar-perfil input[type=password]{
+    width: 100%;
+    height: 60px;
+    padding-left: 30px;
+    box-shadow: 0px 3px 1px #D3D8E067;
+    border: 1px solid #EBEBEB;
+    border-radius: 10px;
+    margin-bottom: 17px;
+}
+
+.editar-perfil input[type=text]{
+    margin-bottom: 17px;
+}
+
+.editar-perfil input[type=submit]{
+    margin-top: 17px;
+    width: 100%;
+    height: 60px;
+    color: white;
+    cursor: pointer;
+    background: #444294 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 1px #2B2962;
+    border-radius: 10px;
+    font: normal normal bold 17px/23px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.editar-perfil input[type=file]{
+    margin-right: 10px;
+    border: 2px dashed #ccc;
+    padding: 10px;
+}
+
+.editar-perfil img{
+    border-radius: 50%;
+    margin-bottom: 10px;
+    width: 173px;
+    height: 173px;
+}
+
+
+.editar-perfil h4{
+    opacity: 0.69;
+}
+
+.form-img input[type=submit]{
+    margin-bottom: 17px;
+    width: 10%;
+    height: 30px;
+    color: white;
+    cursor: pointer;
+    background: #444294 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 1px #2B2962;
+    border-radius: 10px;
+    font: normal normal bold 13px/19px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+

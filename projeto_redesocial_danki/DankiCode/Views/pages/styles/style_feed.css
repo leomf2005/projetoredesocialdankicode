@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html,body{
+    height: 100%;
+    background-color: #F6F6F9;
+}
+
+section.main-feed{
+    display: flex;
+    height: 100%;
+}
+
+.sidebar{
+    width: 347px;
+    height: 100%;
+    padding: 60px 80px;
+    background: #DEDEE5;
+}
+
+.sidebar .logo-sidebar img{
+    max-width: 200px;
+}
+
+.feed-wraper{
+    width: 70%;
+    padding: 0 30px;
+}
+
+
+.feed{
+    display: flex;
+    padding: 25px;
+    padding-top: 60px;
+    width: calc(100% - 347px);
+    overflow-y: auto;
+}
+
+.menu-sidebar{
+    text-align: left;
+    display: inline-block;
+}
+
+.menu-sidebar h4{
+    color: #454545;
+    margin-top: 58px;
+    margin-bottom: 24px;
+}
+
+.menu-sidebar a{
+    display: block;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: #454545;
+}
+
+.menu-sidebar a:hover{
+    font-weight: bold;
+    color: #454545;
+}
+
+.menu-sidebar img{
+    max-width: 32px;
+    padding-right: 15px;
+}
+
+.feed-single-post{
+    max-width: 1025px;
+    border: 1px solid #EBEBEB;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 25px;
+}
+
+.feed-single-post-author h3{
+    font-weight: 500;
+    text-align: left;
+    font-size: 20px;
+    letter-spacing: 0px;
+    color: #454545;
+}
+
+.feed-single-post-author p{
+    text-align: left;
+    font: normal normal normal 14px/26px Montserrat;
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #454545;
+    opacity: 0.44;
+}
+
+.feed-single-post-content{
+    margin: 10px 0;
+}
+
+.feed-single-post-content p{
+    text-align: left;
+    font: normal normal normal 15px/23px Montserrat;
+    font-size: 15px;
+    margin-top: 30px;
+    letter-spacing: 0px;
+    color: #555555;
+}
+
+.feed-single-post-content img{
+    max-width: 100%;
+    margin-top: 18px;
+}
+
+.friends-request-feed{
+    width: 28%;
+    margin-left: 2%;
+    background-color: white;
+    border: 1px solid #EBEBEB;
+    border-radius: 10px;
+    padding: 30px 25px;
+}
+
+.friends-request-feed h4{
+    font-weight: 600;
+    text-align: left;
+    font-size: 17px;
+    letter-spacing: 0px;
+    color: #454545;
+    margin-bottom: 22px;
+}
+
+.friend-request-single{
+    display: flex;
+    max-width: 425px;
+    margin-bottom: 20px;
+    padding: 10px 0;
+    border-bottom:  1px solid #ccc;
+}
+
+.friend-request-single h3{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.friend-request-single-info{
+    margin-top: 5px;
+    
+}
+
+.friend-request-single img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.friend-request-single-info a{
+    font-size: 14px;
+    color: #454545;
+    opacity: 0.69;
+    text-decoration: none;
+}
+
+.feed-single-post-author{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.feed-single-post-author img{
+    min-width: 50px;
+    max-width: 50px;
+    min-height: 50px;
+    max-height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.feed-single-post-author h3{
+    width: 100%;
+}
+
+.feed-form{
+    width: 100%;
+    text-align: center;
+}
+
+.feed-form textarea{
+    width: 100%;
+    height: 120px;
+    border: 1px solid #EBEBEB;
+    border-radius: 10px;
+    resize: none;
+    padding: 5px;
+}
+
+.feed-form input[type=submit]{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 25%;
+    height: 30px;
+    color: white;
+    cursor: pointer;
+    background: #444294 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 1px #2B2962;
+    border-radius: 10px;
+    font: normal normal bold 17px/23px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
